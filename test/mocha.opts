@@ -1,0 +1,5 @@
+--require should
+--ui exports
+--growl
+--slow 2000
+--timeout 5000

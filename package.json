@@ -1,0 +1,23 @@
+
+{
+	"name": "forrst-api",
+	"description": "Wrapper for the official Forrst.com API (http://forrst.com/api)",
+	"version": "0.1.0",
+	"author": "Maxwell Barvian <mbarvian@gmail.com>",
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*"
+	},
+	"keywords": ["forrst", "wrapper", "api", "api-client", "forrst.com"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mbarvian/node-forrst-api.git"
+	},
+	"main": "./lib/forrst",
+	"scripts": {
+		"test": "make test"
+	},
+	"engines": {
+		"node": ">= 0.4.1"
+	}
+}
